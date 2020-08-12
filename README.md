@@ -49,14 +49,15 @@ The `data` attribute contains data associated with the response.
 
 - Requests will be made to the Restful API.
 - Port: 7001
-- languages: `Amharic,Arabic,Basque,Bengali,English(UK),Portuguese(Brazil),Bulgarian,Catalan, Cherokee,Croatian,Czech,Danish,Dutch,English,Estonian,Filipino,Finnish,French,German,Greek, Gujarati,Hebrew,Hindi,Hungarian,Icelandic,Indonesian,Italian,Japanese,Kannada,Korean, Latvian,Lithuanian,Malay,Malayalam,Marathi,Norwegian,Polish,Portuguese,Romanian,Russian, Serbian,Chinese(PRC),Slovak,Slovenian,Spanish,Swahili,Swedish,Tamil,Telugu,Thai,Chinese, Turkish,Urdu,Ukrainian,Vietnamese,Welsh`
+- source and target languages: `Amharic,Arabic,Basque,Bengali,English(UK),Portuguese(Brazil),Bulgarian,Catalan, Cherokee,Croatian,Czech,Danish,Dutch,English,Estonian,Filipino,Finnish,French,German,Greek, Gujarati,Hebrew,Hindi,Hungarian,Icelandic,Indonesian,Italian,Japanese,Kannada,Korean, Latvian,Lithuanian,Malay,Malayalam,Marathi,Norwegian,Polish,Portuguese,Romanian,Russian, Serbian,Chinese(PRC),Slovak,Slovenian,Spanish,Swahili,Swedish,Tamil,Telugu,Thai,Chinese, Turkish,Urdu,Ukrainian,Vietnamese,Welsh`
 
 ### 01 `GET` /getTranslation
 
-API for getting translate a text: `http://localhost:7001/getTranslation?source=english&target=de&text=bye`.
-query param: `source`,
-query param: `target`,
-query param: `text`,
+API for getting translate a text: `http://localhost:7001/getTranslation?source=English&target=German&text=bye`.
+
+- query param: `source`,
+- query param: `target`,
+- query param: `text`,
 
 ```json
 {
